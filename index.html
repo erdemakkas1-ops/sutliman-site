@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=8">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%234A2C1D'/%3E%3Cpath d='M20 62 Q35 50 50 62 T80 62' stroke='%23FF3EA5' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='34' r='14' fill='%23C1392B'/%3E%3C/svg%3E">
 <script type="application/ld+json">
 {
@@ -106,8 +106,7 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-stripe" aria-hidden="true"></div>
-    <div class="wrap hero-grid">
+    <div class="hero-grid">
       <div class="hero-copy">
         <p class="eyebrow">Selimpaşa Sahili · Silivri</p>
         <h1>Adı gibi sakin,<br><em>tadı gibi</em> taze.</h1>
@@ -126,44 +125,41 @@
       </div>
 
       <div class="hero-art">
-        <img class="hero-photo hero-photo-portrait" src="assets/hero-cover.webp?v=2" alt="İkiye ayrılmış bir dondurma topundan akan çikolata sosunun ahşap bir kafe masasında 'Sütliman' yazısını oluşturduğu görsel" width="706" height="1304" fetchpriority="high">
+        <img class="hero-photo" src="assets/hero-cover.webp?v=2" alt="İkiye ayrılmış bir dondurma topundan akan çikolata sosunun ahşap bir kafe masasında 'Sütliman' yazısını oluşturduğu görsel" width="706" height="1304" fetchpriority="high">
+        <div class="hero-art-scrim" aria-hidden="true"></div>
         <span class="hero-photo-tag">İmza anımız — kırılan top, akan çikolata</span>
       </div>
     </div>
+    <div class="hero-stripe" aria-hidden="true"></div>
   </section>
 
   <!-- HIKAYE / ABOUT -->
   <section class="section section-paper" id="hikaye">
-    <div class="wrap story-grid">
-      <div class="story-mark" aria-hidden="true">
-        <svg viewBox="0 0 200 200">
-          <circle cx="100" cy="100" r="96" fill="none" stroke="var(--red)" stroke-width="2" stroke-dasharray="2 8"/>
-          <path d="M40 120c14-16 26-16 40 0s26 16 40 0 26-16 40 0" stroke="var(--choco)" stroke-width="4" fill="none" stroke-linecap="round"/>
-          <path d="M40 140c14-16 26-16 40 0s26 16 40 0 26-16 40 0" stroke="var(--red)" stroke-width="4" fill="none" stroke-linecap="round" opacity=".55"/>
-          <circle cx="100" cy="72" r="18" fill="var(--choco)"/>
-        </svg>
-      </div>
-      <div>
-        <p class="eyebrow">Bir isim, iki anlam</p>
-        <h2>Süt + Liman</h2>
-        <p class="lead">
-          Dükkânın adı tesadüf değil. Bir yanı <strong>süt</strong> — her sabah taze hazırlanan trileçeden supangleye kadar bütün tatlıların hamuru. Öbür yanı <strong>liman</strong> — Selimpaşa'nın Marmara'ya bakan, rüzgârsız, sakin kıyısı. İkisi bir araya gelince ortaya “sütliman” çıkıyor: kelimenin tam anlamıyla, dupduru bir deniz kadar sakin.
-        </p>
-        <p>
-          Bünyamin Bey ve ailesinin işlettiği bu küçük dükkânda tatlılar günlük üretiliyor, kapıdan girenler çoğu zaman ismiyle karşılanıyor. Butik, ferah ve samimi — mahallenin kendi tatlıcısı.
-        </p>
-        <ul class="fact-row">
-          <li><strong>Aile işletmesi</strong><span>Selimpaşa'da yerel üretim</span></li>
-          <li><strong>Günlük taze</strong><span>Vitrin her gün yenileniyor</span></li>
-          <li><strong>4,8 / 5</strong><span>56 Google değerlendirmesi</span></li>
-        </ul>
-        <figure class="sign-photo">
-          <img src="assets/real-sign.webp" alt="Selimpaşa Sütliman'ın gerçek tabelası — çapa ve aşçı şapkalı logo" width="828" height="198" loading="lazy">
-          <figcaption>Kapımızdaki tabelamız</figcaption>
-        </figure>
-      </div>
+    <div class="wrap story-copy">
+      <p class="eyebrow">Bir isim, iki anlam</p>
+      <h2>Süt + Liman</h2>
+      <p class="lead">
+        Dükkânın adı tesadüf değil. Bir yanı <strong>süt</strong> — her sabah taze hazırlanan trileçeden supangleye kadar bütün tatlıların hamuru. Öbür yanı <strong>liman</strong> — Selimpaşa'nın Marmara'ya bakan, rüzgârsız, sakin kıyısı. İkisi bir araya gelince ortaya “sütliman” çıkıyor: kelimenin tam anlamıyla, dupduru bir deniz kadar sakin.
+      </p>
+      <p>
+        Bünyamin Bey ve ailesinin işlettiği bu küçük dükkânda tatlılar günlük üretiliyor, kapıdan girenler çoğu zaman ismiyle karşılanıyor. Butik, ferah ve samimi — mahallenin kendi tatlıcısı.
+      </p>
+      <ul class="fact-row">
+        <li><strong>Aile işletmesi</strong><span>Selimpaşa'da yerel üretim</span></li>
+        <li><strong>Günlük taze</strong><span>Vitrin her gün yenileniyor</span></li>
+        <li><strong>4,8 / 5</strong><span>56 Google değerlendirmesi</span></li>
+      </ul>
     </div>
-    <img class="story-band" src="assets/interior-band.webp" alt="Ahşap tabure ve mermer tezgahlı, cam vitrinde günlük tatlıların dizildiği sıcak bir dükkân içi" width="1024" height="344" loading="lazy">
+  </section>
+
+  <section class="cinema-break" data-reveal>
+    <img src="assets/interior-band.webp" alt="Ahşap tabure ve mermer tezgahlı, cam vitrinde günlük tatlıların dizildiği sıcak bir dükkân içi" width="1024" height="344" loading="lazy">
+    <div class="cinema-scrim" aria-hidden="true"></div>
+    <p class="cinema-caption"><em>Elde açılan,</em><br>günlük taze.</p>
+    <figure class="cinema-stamp">
+      <img src="assets/real-sign.webp" alt="Selimpaşa Sütliman'ın gerçek tabelası — çapa ve aşçı şapkalı logo" width="828" height="198" loading="lazy">
+      <figcaption>Kapımızdaki tabelamız</figcaption>
+    </figure>
   </section>
 
   <div class="wave-divider" aria-hidden="true">
@@ -303,6 +299,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=5"></script>
+<script src="script.js?v=6"></script>
 </body>
 </html>

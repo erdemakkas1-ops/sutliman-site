@@ -115,7 +115,7 @@
   });
 
   // Scroll reveal
-  var revealTargets = document.querySelectorAll(".story-grid, .review-grid, .konum-grid, .menu-tabs");
+  var revealTargets = document.querySelectorAll(".story-copy, .cinema-break, .review-grid, .konum-grid, .menu-tabs");
   revealTargets.forEach(function (el) { el.setAttribute("data-reveal", ""); });
 
   if ("IntersectionObserver" in window) {
